@@ -1,16 +1,16 @@
 import sys
 
-PAPER_HEIGHT = 0.00015 # meter, 0.15mm
+PAPER_HEIGHT = 0.00015 # in meter, 0.15mm
 DECIMAL_PLACES = 2
 
 MM = 0.001
 CM = 0.01
 METER = 1
-KILOMETER = 1000 # 1000m
+KILOMETER = 1000 # m
 EARTH_DIAMETER = 12742 # km
-DISTANCE_TO_MOON = 384400 # * km
-LIGHTYEAR = 1.057 * (10**18) # * km
-MILKY_WAY_DIAMTER = 105700 # * lightyears
+DISTANCE_TO_MOON = 384400 # km
+LIGHTYEAR = 1.057 * (10**18) # km
+MILKY_WAY_DIAMTER = 105700 # lightyears
 
 def unit_conversion(height, factor):
     value = round((height / factor), DECIMAL_PLACES)
