@@ -10,7 +10,7 @@ KILOMETER = 1000 # m
 EARTH_DIAMETER = 12742 # km
 DISTANCE_TO_MOON = 384400 # km
 LIGHTYEAR = 1.057 * (10**18) # km
-MILKY_WAY_DIAMTER = 105700 # lightyears
+MILKY_WAY_DIAMETER = 105700 # lightyears
 
 def unit_conversion(height, factor):
     value = round((height / factor), DECIMAL_PLACES)
