@@ -1,4 +1,4 @@
-# PaperFolding
+# paper-folding
 Run: `.\paper-folding.py` in a terminal
 
 Enter the number of foldings you want to calculate
