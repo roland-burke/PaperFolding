@@ -1,8 +1,10 @@
 # PaperFolding
 Run: `.\paper-folding.py <number_of_foldings> <paper_height>` in a terminal
 
+```
 <number_of_foldings>: How many times the paper should be folded.
 Optional: <paper_height>: The height of the paper in mm. (Default value: 0.15mm)
+```
 
 Example output:
 ```
