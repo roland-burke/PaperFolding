@@ -1,4 +1,6 @@
 # PaperFolding
+Requires Python Version 3.x.
+
 Run: `.\paper-folding.py <number_of_foldings> <paper_height>` in a terminal
 
 ```
